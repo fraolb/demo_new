@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https:/fraolb.github.io/demo_app",
+  "homepage": "https:/fraolb.github.io/demo_new",
   "type": "module",
   "scripts": {
     "dev": "vite",
