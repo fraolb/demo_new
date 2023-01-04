@@ -1,0 +1,256 @@
+<div className="form1">
+      <h4 className="form1_top">
+        በቤተ ክርስቲያን/ቤተ እምነት በህብረት በሚኒስትሪው <br />
+        &emsp; &ensp; በአመልካቹ ሃይማኖት ተቋም የሚሞላ
+      </h4>
+      <form>
+        <div>
+          እኔ &nbsp;
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={person.name}
+            onChange={handleChange}
+          />
+          &nbsp; የ &nbsp;
+          <input
+            type="text"
+            id="church"
+            name="church"
+            value={person.church}
+            onChange={handleChange}
+          />
+          &nbsp; ቤተ ክርስቲያን ፤ ኅብረት ፤ ሚኒስትሪ ከዚህ በታች የሚሰጥው መረጃ በሙሉ ትክክለኛ መሆኑን
+          አረጋግጣለሁ።
+        </div>
+        <div>
+          የእምነት ተቋሙ መረጃ <br />
+          <label htmlFor="orgName">የአመልካች ተቋሙ ስም &nbsp;</label>
+          <input
+            type="text"
+            id="orgName"
+            name="orgName"
+            value={person.orgName}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          የእምነት ተቋሙ አይነት <br />
+          <div className="typeOfChurch">
+            <label htmlFor="type1" className="container">
+              <input
+                type="radio"
+                id="type"
+                name="type"
+                value="ቤተ ክርስቲያን"
+                onChange={handleChange}
+              />
+              <span className="checkmark"></span>
+              &nbsp; ቤተ ክርስቲያን
+            </label>
+            <label htmlFor="type" className="container">
+              <input
+                type="radio"
+                id="type"
+                name="type"
+                value="ኅብረት"
+                onChange={handleChange}
+              />
+              <span className="checkmark"></span>
+              &nbsp; ኅብረት
+            </label>
+            <label htmlFor="type" className="container">
+              <input
+                type="radio"
+                id="type"
+                name="type"
+                value="ሚኒስትሪ"
+                onChange={handleChange}
+              />
+              <span className="checkmark"></span>
+              &nbsp; ሚኒስትሪ
+            </label>
+            <label htmlFor="type" className="container">
+              <input
+                type="radio"
+                id="type"
+                name="type"
+                value="ሌላ"
+                onChange={handleChange}
+              />
+              <span className="checkmark"></span>
+              &nbsp; ሌላ
+            </label>
+          </div>
+        </div>
+        <div>
+          <h4>
+            ቤተ ክርስቲያኑ ፤ ኅብረቱ ፤ ሚንስትሪው አገልግሎት እየሰጠ ያለብት ክልል ወይም የክተማ አስተዳደር
+          </h4>
+          <div className="region">
+            <div>
+              <input type="checkbox" value="አዲስ አበባ" onChange={handleChange} />
+              &nbsp; አዲስ አበባ
+            </div>
+            <div>
+              <input type="checkbox" value="ትግራይ" onChange={handleChange} />
+              &nbsp; ትግራይ
+            </div>
+            <div>
+              <input type="checkbox" value="ሶማሌ" onChange={handleChange} />
+              &nbsp; ሶማሌ
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="ጋምቤላ ህዝቦች"
+                onChange={handleChange}
+              />
+              &nbsp; ጋምቤላ ህዝቦች
+            </div>
+            <div>
+              <input type="checkbox" value="አፋር" onChange={handleChange} />
+              &nbsp; አፋር
+            </div>
+            <div>
+              <input type="checkbox" value="ኦሮሚያ" onChange={handleChange} />
+              &nbsp; ኦሮሚያ
+            </div>
+            <div>
+              <input type="checkbox" value="አማራ" onChange={handleChange} />
+              &nbsp; አማራ
+            </div>
+            <div>
+              <input type="checkbox" value="ድሬደዋ" onChange={handleChange} />
+              &nbsp; ድሬደዋ
+            </div>
+            <div>
+              <input type="checkbox" value="ሐረሪ ሕዝብ" onChange={handleChange} />
+              &nbsp; ሐረሪ ሕዝብ
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="ቤንሻንጉል/ጉምዝ"
+                onChange={handleChange}
+              />
+              &nbsp; ቤንሻንጉል/ጉምዝ
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="ደቡብ ብ/ብ/ሕ"
+                onChange={handleChange}
+              />
+              &nbsp; ደቡብ ብ/ብ/ሕ
+            </div>
+            <div>
+              <input type="checkbox" value="ሌላ" onChange={handleChange} />
+              &nbsp; ሌላ
+            </div>
+            <div>
+              <input type="checkbox" value="ሲዳማ" onChange={handleChange} />
+              &nbsp; ሲዳማ
+            </div>
+            <div>
+              <input type="checkbox" value="ደ/ም/ክ" onChange={handleChange} />
+              &nbsp; ደ/ም/ክ
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>ቤተ ክርስቲያኑ ፤ ኅብረቱ ፤ ሚንስትሪው ፤ ዋና መ/ቤት አድራሻ</h4>
+          <div className="adress">
+            <div className="adressRegion">
+              <label htmlFor="home" className="container">
+                ክልል/ከተማ አስተዳደር
+                <input
+                  type="text"
+                  id="type"
+                  name="home"
+                  value=""
+                  onChange={handleChange}
+                />
+              </label>
+              <label htmlFor="fax" className="container">
+                ወረዳ
+                <input
+                  type="text"
+                  id="type"
+                  name="fax"
+                  value=""
+                  onChange={handleChange}
+                />
+              </label>
+              <label htmlFor="home" className="container">
+                የቤት ቁጥር
+                <input
+                  type="text"
+                  id="type"
+                  name="home"
+                  value=""
+                  onChange={handleChange}
+                />
+              </label>
+              <label htmlFor="fax" className="container">
+                ዞን//ክ/ከተማ
+                <input
+                  type="text"
+                  id="type"
+                  name="fax"
+                  value=""
+                  onChange={handleChange}
+                />
+              </label>
+              <label htmlFor="fax" className="container">
+                ቀበሌ
+                <input
+                  type="text"
+                  id="type"
+                  name="fax"
+                  value=""
+                  onChange={handleChange}
+                />
+              </label>
+            </div>
+            <div>
+              <h4>ስልክ ቁጥር</h4>
+              <div>
+                <label htmlFor="home" className="container">
+                  የቤት
+                  <input
+                    type="text"
+                    id="type"
+                    name="home"
+                    value=""
+                    onChange={handleChange}
+                  />
+                </label>
+                <label htmlFor="fax" className="container">
+                  ፋክስ ቁጥር
+                  <input
+                    type="text"
+                    id="type"
+                    name="fax"
+                    value=""
+                    onChange={handleChange}
+                  />
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>ቤተ ክርስቲያኑ ፤ ኅብረቱ ፤ ሚንስትሪ የተቋቋመበት ዓላማ (ግልፅና አጠር ተደርጎ ይፃፍ)</h4>
+          <textarea
+            name="message"
+            rows="7"
+            cols="60"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+        <button>Next</button>
+      </form>
+    </div>

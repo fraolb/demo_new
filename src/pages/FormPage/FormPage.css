@@ -1,0 +1,10 @@
+.formPage{
+    display:block;
+    margin-top: 5%;
+}
+
+.formBody{
+    display: flex;
+   
+    margin-left: 0%;
+}

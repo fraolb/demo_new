@@ -1,0 +1,146 @@
+.Home {
+  display: block;
+  background-color: var(--clr-primary-background);
+  width: 100%;
+  color: white;
+  margin-top: 5.1%;
+}
+.homeBack {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(
+    77.19deg,
+    #444e68 21.42%,
+    rgba(68, 78, 104, 0) 244.69%
+  );
+}
+.homeLeft {
+  width: 50%;
+ 
+}
+.homeLeftWord {
+  display: block;
+  width: 70%;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5%;
+  padding: auto;
+}
+.btnH {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.homeRight {
+  color: var(--clr-side-bar);
+  width: 50%;
+  background: linear-gradient(
+    to right bottom,
+    #5a637a 50%,
+    var(--clr-primary-background) 50%
+  );
+}
+.homeFront {
+  /* z-index: 1;
+    margin-left: 10%;
+    width: 10%;
+    background-color: rebeccapurple; */
+  top: -50vh;
+  position: relative;
+  left: 50%;
+  background-color: var(--clr-nav-bar);
+  width: 10%;
+  height: 65vh;
+  z-index: 1;
+}
+.homeFrontShape {
+  background: var(--clr-nav-bar);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.homeFrontShapeLeft {
+  width: 50%;
+  background: linear-gradient(
+    to right bottom,
+    var(--clr-nav-bar) 50%,
+    var(--clr-primary-background) 50%
+  );
+}
+.homeFrontShapeRight {
+  width: 50%;
+  background: linear-gradient(
+    to bottom left,
+    var(--clr-nav-bar) 50%,
+    var(--clr-primary-background) 50%
+  );
+}
+.homeMiddle {
+  color: black;
+  top: -65vh;
+  position: relative;
+  height: 10%;
+  padding: 10vh;
+  display: block;
+  justify-content: center;
+}
+.partnersTop {
+  margin-left: 30vh;
+  color: black;
+}
+.partners {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6vh;
+}
+.homeBottom {
+  color: black;
+  top: -55vh;
+  position: relative;
+  display: grid;
+  padding-left: 15vh;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+.homeBottomSet {
+  display: block;
+  width: 25%;
+  margin: 2vh;
+  padding: 10px;
+}
+.bottomHeader {
+  background-color: var(--clr-side-bar);
+  height: 10%;
+  width: 100%;
+}
+.homeBottomBox {
+  margin-top: 1vh;
+  box-shadow: 5px 10px 10px 5px #888888;
+  box-sizing: 30%;
+}
+.homeBottomBoxMiddle {
+  /* height: 100%; */
+  /* border-style: dashed; */
+  box-shadow: 5px 10px 18px #888888;
+}
+.down {
+  font-size: 0px;
+  line-height: 0%;
+  width: 0px;
+  border-top: 120px solid #888888;
+  border-left: 190px solid var(--clr-primary-background);
+  border-right: 190px solid var(--clr-primary-background);
+}
+
+.ourClients {
+  color: black;
+  top: -45vh;
+  position: relative;
+  height: 5%;
+  padding: 10vh;
+  display: block;
+  justify-content: center;
+}

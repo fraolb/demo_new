@@ -1,0 +1,58 @@
+.MainSidebar{
+  margin-top: 15%;
+}
+.sideBar {
+  margin: 0;
+  padding: 0px;
+  background-color: var(--clr-side-bar);
+  color: white;
+  margin: 0%;
+  padding-left: 11vh;
+  border: none;
+  display: flex;
+  height: 100vh;
+  position: sticky;
+ 
+}
+.sideItem {
+  font-size: 15px;
+  /* border-bottom: red;
+  border-style: dashed; */
+  margin: 0;
+}
+/* .sideBar :hover{
+  background-color: #6b7386;
+} */
+.sideItem :hover{
+  /* border-left: red 2vh dashed !important; */
+  color: var(--clr-side-bar);
+}
+.top {
+  font-size: large;
+  margin-bottom: 15px;
+}
+.topReg {
+  display: block;
+}
+.regForm {
+  background-color: var(--clr-side-bar);
+  color: white;
+  border: none;
+}
+.iconForm {
+}
+.iconAndButton {
+  background-color: var(--clr-side-bar);
+  color: white;
+  border: none;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+
+  display: grid;
+  grid-template-columns: auto;
+  width: 80%;
+}
+.iconAndButton :hover {
+  background-color: rgb(230, 243, 254);
+}

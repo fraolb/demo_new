@@ -1,0 +1,4 @@
+.App{
+  background-color: var(--clr-primary-background);
+  display: flex;
+}

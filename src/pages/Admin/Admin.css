@@ -1,0 +1,25 @@
+.dashBoard{
+
+    margin-top: 90px;
+    margin-left: 200px;
+    /* border-style: dashed; */
+    height: 150vh;
+    width: 176vh;
+    position: relative;
+    z-index: 1;
+}
+.charts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.tableDashboard{
+    border-style: dashed;
+    /* height: 50vh; */
+}
+
+.chartTop{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,95 @@
+.login {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 70vh;
+  padding-top: 20vh;
+  padding: 10vh;
+}
+
+.loginForm {
+  height: 50vh;
+  padding-top: 5%;
+  width: 100%;
+  margin: 10vh;
+  display: block;
+  justify-content: space-evenly;
+}
+.loginHeader {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+  margin-left: 14vh;
+}
+.loginHeader1{
+    width: 40px;
+    height: 5px;
+    background-color:var(--clr-nav-bar);
+}
+.imgContainer {
+  margin: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding-top: 8%;
+}
+.formBigBox {
+  display: block;
+  padding: 0;
+  margin: 0vh;
+}
+.loginFormS {
+  display: flex;
+  width: 519.84px;
+  height: 43.43px;
+  justify-content: center;
+  width: 45vh;
+  margin-left: 20%;
+  margin-bottom: 0vh;
+  margin-top: 0vh;
+  border: 1px solid #76777b;
+  border-radius: 31px;
+}
+.formBox {
+  border: none;
+  /* border-bottom: 1px solid; */
+  width: 35vh;
+  font-size: 21px;
+  outline: none;
+}
+.muiIcon {
+  padding-top: 10px;
+}
+.btn {
+  width: 45vh;
+  margin-left: 5%;
+  height: 43.43px;
+
+  margin-top: 0vh;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.18em;
+  background: #0C519E;
+}
+.loginFormBottom{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 27vh;
+    
+}
+.belowContainer{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.belowContainer p{
+    display: flex;
+    justify-content: center;
+}

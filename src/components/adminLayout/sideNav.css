@@ -1,0 +1,33 @@
+.sideNav {
+  background: linear-gradient(90deg, #434d67 50%, rgba(67, 77, 103, 0) 1021.1%);
+  color: white;
+  width: 200px;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  margin-top: 90px;
+  z-index: 2;
+}
+.sideBtn {
+  /* color: rebeccapurple;
+    background-color: blue; */
+  display: flex;
+ 
+  /* justify-content: safe; */
+  width: 174px;
+  padding: 10px;
+  /* border-style: dashed; */
+}
+.sideBtn:hover {
+  border-left: 5px solid #e6b301;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+
+  background: rgba(217, 217, 217, 0.25);
+}
+.btnText {
+  margin-left: 3vh;
+  padding-top: 0.5vh;
+  font-size: 18px;
+}

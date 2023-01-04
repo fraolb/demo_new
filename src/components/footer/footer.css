@@ -1,0 +1,19 @@
+.footer{
+   
+    font-size: smaller;
+    background-color: var(--clr-side-bar);
+    padding: 20px;
+}
+.footerTop{
+    display: flex;
+    justify-content: space-around;
+   margin: 5vh;
+    color: aliceblue;
+}
+.footerTop div{
+    font-size: 16px;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-around;
+}
